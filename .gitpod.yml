@@ -4,7 +4,14 @@ github:
   prebuilds:
     # Enable prebuilds for each push to master
     master: true
-    # Used to prebuilt the workspace for merge requests
+# Used to prebuilt the workspace for merge requests
     pullRequestsFromForks: true
     addLabel: gitpod-ready
     addComment: true
+tasks:
+  - before: brew install shellcheck
+vscode:
+  extensions:
+    - timonwong.shellcheck@0.9.0:HV7fROO4OHK245UUeWPLRw==
+    - medo64.render-crlf@1.5.3:HLx6qIeeDMkxZSYLpmfjnw==
+    - streetsidesoftware.code-spell-checker@1.9.0:zfrDgZmxZRojZW7Uky3Fww==
