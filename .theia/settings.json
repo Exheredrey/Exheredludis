@@ -1,0 +1,30 @@
+{
+	// Editor configuration
+	"editor.wordWrap": "on",
+	"editor.mouseWheelZoom": true,
+	"editor.mouseWheelScrollSensitivity": 1,
+	/// To show invisibles
+	"editor.renderWhitespace": "all",
+	"code-eol.newlineCharacter": "¬",
+	"code-eol.returnCharacter" : "¤",
+	"code-eol.crlfCharacter" : "¤¬",
+	"editor.detectIndentation": true,
+	"editor.tabSize": 2,
+	"editor.tabCompletion": "on",
+	"setup.dontask": true,
+	// Language specific
+	/// PYTHON
+	"python.dataScience.sendSelectionToInteractiveWindow": true,
+	/// JAVASCRIPT
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	// SHELL
+	"shellcheck.enableQuickFix": true,
+	"shellcheck.run": "onSave",
+	"editor.cursorWidth": "2",
+	// FIXME: File a bug to cSpell to allow `word's`
+	"cSpell.userWords": [
+		"Exheredludis",
+		"paludis"
+	],
+}

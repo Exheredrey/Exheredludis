@@ -1,0 +1,7 @@
+# This file is used to set permission per team or user to grant write permission to the repository per pathname
+
+# Reference to configuration - https://github.blog/2017-07-06-introducing-code-owners/
+# Relevant https://help.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners
+
+# Maintainers
+*   @kreyren @RXT0112/maintainers
